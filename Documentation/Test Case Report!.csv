@@ -1,0 +1,23 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Assigned To,Remarks
+,,,,,,,,
+TC001,Validate product listing page,Open product page > Verify products,Products displayed correctly,Products displayed correctly,Passed,Low,-,No issues found
+,,,,,,,,
+TC002,Test API error handling,Disconnect API > Refresh page,Show fallback UI with error message,Error message shown,Passed,Low,-,Handled gracefully
+,,,,,,,,
+TC003,Check cart functionality,Add product to cart > Verify cart contents,Cart updates with added product,Cart updates as expected,Passed,Low,-,Works as expected
+,,,,,,,,
+TC004,Check wishlist functionality,Add product into wishlist,Wishlist updates with added product,Wishlist update as expected,Passed,Low,,Works as expected
+,,,,,,,,
+TC005,Check dynamic routing for products.,Click on product,Each product display dynamically with details,product details display dynamically ,Passed,Low,,Data render dynamically
+,,,,,,,,
+TC006,Search bar functionality,"Inter product names, tags in searchbar",product comes in result when search,Result as expected,Passed,Low,-,Test successful
+,,,,,,,,
+TC007,Check data in category,Click in category and see the results,All data show when click on spacific category,Data shown in spacific category,Passed,Low,,Successfully test
+,,,,,,,,
+TC008,Filter Panel & Pagination,test filter panel and pagination,Fully Functional,Expected Result,Passed,Low,,Work as expected
+,,,,,,,,
+TC009,Checkout page,Check (checkout page) ,Carry all customer information ,successfully collect info,Passed,Low,.,No issue found
+,,,,,,,,
+TC010,Check all pages,By clicking on a page > Verify result,All pages contain a data,Work as expected,Passed,Low,.-,Handled gracefully
+,,,,,,,,
+TC011,Ensure responsiveness on mobile,Resize browser window > Check layout,Layout adjusts properly to screen size,Responsive layout working as intended,Passed,Low,.,Successfully Text Responsiveness 
